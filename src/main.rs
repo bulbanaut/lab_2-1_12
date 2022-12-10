@@ -6,12 +6,12 @@ fn main() {
 
     println!("Кто ты: Мальчик или Девочка?");
     let input = read_var();
-    if input == b {
+    if input == g {
         println!("Мне нравятся мальчики");
-    } else if input == g {
+    } else if input == b {
         println!("Мне нравятся девочки");
     } else {
-        println!("шо");
+        println!("Ввод не распознан");
     }
 }
 
